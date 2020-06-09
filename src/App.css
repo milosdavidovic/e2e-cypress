@@ -1,0 +1,48 @@
+body {
+  padding-top: 40px;
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.step,
+.welcome {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+button {
+  background-color: rgb(65, 184, 131);
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(65, 184, 131, 0.8);
+}
